@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /checkout
+Disallow: /order-confirmation
+Disallow: /order-tracking
+
+Sitemap: https://verde-horology.com/sitemap.xml
