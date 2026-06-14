@@ -76,17 +76,6 @@ or unreferenced pages.
   setting one environment variable. The live currency conversion endpoint
   is also configurable via `VITE_EXCHANGE_RATE_API_URL`.
 
-## Notes on changes from the Replit export
 
-- Removed Replit-only Vite plugins (`@replit/vite-plugin-*`) and the
-  `PORT` / `BASE_PATH` / `REPL_ID` environment requirements — the app now
-  runs with sensible defaults (`npm run dev` → port 5173).
-- Replaced monorepo "catalog:"/"workspace:*" package versions with pinned
-  npm registry versions.
-- Added a standalone `tsconfig.json` (no longer extends a missing
-  `tsconfig.base.json`).
-- Added `.env.example`, `.gitignore`, and this README.
-- Added small CSS utilities (`hover-elevate` / `active-elevate-2`) that
-  were previously injected by Replit's dev tooling plugins.
-- Fixed placeholder "built on Replit" SEO meta description in
-  `index.html`.
+
+
